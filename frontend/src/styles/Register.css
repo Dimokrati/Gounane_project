@@ -1,14 +1,10 @@
-/* Styles for the container */
-/* div {
-    width: 50vw;
-    height: 100vh;
+ /* Styles for the main box */
+ .register_leftside{
     display: flex;
     justify-content: center;
     align-items: center;
-  } */
-  
-  /* Styles for the main box */
-.fullpage {
+ }
+ .fullpage {
     width: 50ch;
     height: 700px;
     display: flex;
@@ -72,6 +68,7 @@
 .psw_input {
     width: 100%;
     padding: 12px;
+    margin: 16px 0px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
