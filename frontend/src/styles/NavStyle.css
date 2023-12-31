@@ -1,0 +1,31 @@
+.Nav {
+    background-color: #333; /* Set your desired background color */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .Nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .Nav li {
+    margin-right: 15px; /* Adjust the margin between list items */
+  }
+  
+  .Nav a {
+    text-decoration: none;
+    color: white; /* Set your desired text color */
+    font-weight: bold; /* Set font weight if needed */
+    transition: color 0.3s ease; /* Add a smooth color transition */
+  }
+  
+  .Nav a:hover {
+    color: #ffd700; /* Change the color on hover to indicate interactivity */
+  }
+  
+  /* Add a style for the active link */
+  .Nav a.active {
+    color: #ffd700; /* Set the color for the active link */
+  }

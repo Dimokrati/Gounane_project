@@ -1,0 +1,125 @@
+/* Styles for the container */
+/* div {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+  
+  /* Styles for the main box */
+.fullpage {
+    width: 50ch;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.54);
+    flex-direction: column;
+  }
+
+  .title_ctn{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for the text elements */
+  div > div > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+.form{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+  div > div > div > h3 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  
+  div > div > div > p {
+    color: #8a8a8a;
+  }
+
+ .inputs_ctn{
+    display: flex;
+    height: auto;
+ } 
+  
+  /* Styles for the email input */
+.email_input {
+    width: 100%;
+    padding: 12px;
+    margin: 16px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #616060;
+  }
+  
+  /* Styles for the password input */
+
+.psw_input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    color: #616060;
+  }
+  
+
+  
+  /* Styles for the sign-in button */
+.signin_btn {
+    width: 100%;
+    text-transform: unset;
+    margin-bottom: 10px;
+    background-color: #973cff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: #7b08ff; /* Color on hover */
+      transform: none; /* Scale effect on hover */
+    }
+  }
+
+ 
+  
+  
+  
+  /* Styles for the account text and sign-up link */
+ .register_link_ctn {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* Styles for the link to sign-up */
+ .register_link {
+    color: #8531e6;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
