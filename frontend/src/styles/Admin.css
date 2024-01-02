@@ -1,0 +1,70 @@
+.Admin-DashBoard{
+    width: 100vw;
+    height: 100vh;
+}
+
+.fil-ctn{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 30px;
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.fil-btn{
+    background-color: rgb(223, 155, 255);
+    width: 500px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration:none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.fil-link{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: 900;
+
+}
+
+.gi-class{
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.gi-btn-ctn{
+    width: 100px;
+   
+}
+
+
+.gi-btn {
+    width: 100%;
+    text-transform: unset;
+    margin-bottom: 10px;
+    background-color: #973cff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    &:hover {
+      background-color: #7b08ff; /* Color on hover */
+      transform: none; /* Scale effect on hover */
+    }
+  }
